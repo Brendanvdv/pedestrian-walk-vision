@@ -1,6 +1,6 @@
 from ultralytics import YOLO
 
-model = YOLO(r"C:\Users\Brend\Downloads\best.pt")
+model = YOLO(r"model_weights\segmentation_dataset\best.pt")
 
 video_path = "wts_sample.mp4"
 
